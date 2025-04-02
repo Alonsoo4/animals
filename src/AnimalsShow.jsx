@@ -17,6 +17,7 @@ const svgMap = {
     cow,
     gator,
     horse
+    
 }
 
 function AnimalsShow ({type}){
@@ -44,3 +45,5 @@ function AnimalsShow ({type}){
         </div>
     )            
 }
+
+export default AnimalsShow
