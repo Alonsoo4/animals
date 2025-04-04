@@ -1,14 +1,14 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-import bird from 'src/assets/svg/bird.svg'
-import dog from 'src/assets/svg/dog.svg'
-import cat from 'src/assets/svg/cat.svg'
-import cow from 'src/assets/svg/cow.svg'
-import gator from 'src/assets/svg/gator.svg'
-import heart from 'src/assets/svg/heart.svg'
-import horse from 'src/assets/svg/heart.svg'
+import bird from './assets/svg/bird.svg'
+import dog from './assets/svg/dog.svg'
+import cat from './assets/svg/cat.svg'
+import cow from './assets/svg/cow.svg'
+import gator from './assets/svg/gator.svg'
+import heart from './assets/svg/heart.svg'
+import horse from './assets/svg/horse.svg'
 
-import 'src/AnimalsShow.css'
+import './AnimalsShow.css'
 
 const svgMap = {
     bird,
@@ -29,7 +29,7 @@ function AnimalsShow ({type}){
     return(
         <div
             onClick={handleClick}
-            className="amimal-show"
+            className="animal-show"
         >
             <img
                 src={svgMap[type]}
